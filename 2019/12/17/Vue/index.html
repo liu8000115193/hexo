@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Vue | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="VUE只清除校验值this.$refs[“dataForm”].clearValidate(); 清除校验值和输入双向绑定v-model指令1&lt;input v-model&#x3D;&#39;text&#39; &#x2F;&gt;  .sync 修饰符1&lt;my-dialog :visible.sync&#x3D;&quot;dialogVisible&quot; &#x2F;&gt;  列表或表格控制input123456">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;17&#x2F;Vue&#x2F;index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="VUE只清除校验值this.$refs[“dataForm”].clearValidate(); 清除校验值和输入双向绑定v-model指令1&lt;input v-model&#x3D;&#39;text&#39; &#x2F;&gt;  .sync 修饰符1&lt;my-dialog :visible.sync&#x3D;&quot;dialogVisible&quot; &#x2F;&gt;  列表或表格控制input123456">
+<meta property="og:locale" content="zh">
+<meta property="article:published_time" content="2019-12-17T10:00:27.331Z">
+<meta property="article:modified_time" content="2019-12-13T02:53:20.523Z">
+<meta property="article:author" content="刘方红">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.1.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Vue" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/12/17/Vue/" class="article-date">
+  <time datetime="2019-12-17T10:00:27.331Z" itemprop="datePublished">2019-12-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Vue
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h2><h5 id="只清除校验值"><a href="#只清除校验值" class="headerlink" title="只清除校验值"></a>只清除校验值</h5><p>this.$refs[“dataForm”].clearValidate();</p>
+<h5 id="清除校验值和输入"><a href="#清除校验值和输入" class="headerlink" title="清除校验值和输入"></a>清除校验值和输入</h5><h4 id="双向绑定"><a href="#双向绑定" class="headerlink" title="双向绑定"></a>双向绑定</h4><h5 id="v-model指令"><a href="#v-model指令" class="headerlink" title="v-model指令"></a>v-model指令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input v-model&#x3D;&#39;text&#39; &#x2F;&gt;</span><br></pre></td></tr></table></figure>
+
+<h5 id="sync-修饰符"><a href="#sync-修饰符" class="headerlink" title=".sync 修饰符"></a>.sync 修饰符</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">my-dialog</span> <span class="attr">:visible.sync</span>=<span class="string">"dialogVisible"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="列表或表格控制input"><a href="#列表或表格控制input" class="headerlink" title="列表或表格控制input"></a>列表或表格控制input</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 方法一</span></span><br><span class="line"><span class="keyword">this</span>.$refs.name  <span class="comment">// 标签的ref属性</span></span><br><span class="line"><span class="comment">// 方法二</span></span><br><span class="line">v-<span class="keyword">if</span>  <span class="comment">// 使用v-if标签比较index</span></span><br><span class="line"><span class="comment">// 方法三</span></span><br><span class="line">v-show <span class="comment">// 使用v-show比较index</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 方法一、方法二出现响应慢的问题</span></span><br><span class="line"><span class="comment">// 都无法对input自动聚焦，方法三只是第一次有效</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line">&lt;template&gt;</span><br><span class="line">	&lt;el-table&gt;</span><br><span class="line">    	&lt;el-table-column</span><br><span class="line">        :label=<span class="string">"$t('table.labels')"</span></span><br><span class="line">        min-width=<span class="string">"110"</span></span><br><span class="line">        align=<span class="string">"center"</span></span><br><span class="line">      &gt;</span><br><span class="line">        &lt;template slot-scope=<span class="string">"scope"</span>&gt;</span><br><span class="line">          &lt;el-tag</span><br><span class="line">            v-<span class="keyword">for</span>=<span class="string">"tag in scope.row.tags"</span></span><br><span class="line">            :key=<span class="string">"tag.tagName"</span></span><br><span class="line">            closable</span><br><span class="line">            :disable-transitions=<span class="string">"false"</span></span><br><span class="line">            @close=<span class="string">"handleCloseTag(tag.tagName, scope.row)"</span></span><br><span class="line">          &gt;&#123;&#123; tag.tagName &#125;&#125;&lt;<span class="regexp">/el-tag&gt;</span></span><br><span class="line"><span class="regexp">          &lt;input</span></span><br><span class="line"><span class="regexp">            v-show="inputVisible === scope.$index"</span></span><br><span class="line"><span class="regexp">            v-model="scope.row.inputValue"</span></span><br><span class="line"><span class="regexp">            size="small"</span></span><br><span class="line"><span class="regexp">            @keyup.enter="$event.target.blur"</span></span><br><span class="line"><span class="regexp">            @blur="handleInputConfirm(scope.row, scope.$index)"</span></span><br><span class="line"><span class="regexp">          &gt;</span></span><br><span class="line"><span class="regexp">          &lt;el-button</span></span><br><span class="line"><span class="regexp">            v-show="inputVisible !== scope.$index"</span></span><br><span class="line"><span class="regexp">            class="button-new-tag"</span></span><br><span class="line"><span class="regexp">            size="small"</span></span><br><span class="line"><span class="regexp">            @click="showInput(scope.row, scope.$index)"</span></span><br><span class="line"><span class="regexp">          &gt;+ New Tag&lt;/</span>el-button&gt;</span><br><span class="line">          &lt;!-- <span class="xml"><span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123; scope.row.tags &#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span> --&gt;</span><br><span class="line">        &lt;<span class="regexp">/template&gt;</span></span><br><span class="line"><span class="regexp">      &lt;/</span>el-table-column&gt;</span><br><span class="line">    &lt;<span class="regexp">/el-table&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>template&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">      <span class="comment">// 标签输入框</span></span><br><span class="line">      inputVisible: <span class="number">-1</span>,</span><br><span class="line">      <span class="comment">// 标签输入值</span></span><br><span class="line">      inputValue: <span class="string">''</span>,</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;, </span><br><span class="line">&#125;</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Vue-Loader"><a href="#Vue-Loader" class="headerlink" title="Vue Loader"></a>Vue Loader</h3><h4 id="热重载"><a href="#热重载" class="headerlink" title="热重载"></a>热重载</h4><p>热重载默认是开启的</p>
+<p>以下情况会被关闭：</p>
+<ul>
+<li>webpack 的 target的值是node</li>
+<li>webpack 会压缩代码</li>
+<li>process.env.NODE_ENV === ‘production’</li>
+</ul>
+<p>显示关闭</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>: &#123;</span><br><span class="line">  rules: [</span><br><span class="line">    &#123;</span><br><span class="line">      test: <span class="regexp">/\.vue$/</span>,</span><br><span class="line">      loader: <span class="string">'vue-loader'</span>,</span><br><span class="line">      options: &#123;</span><br><span class="line">        hotReload: <span class="literal">false</span> <span class="comment">// 关闭热重载</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="函数式组件"><a href="#函数式组件" class="headerlink" title="函数式组件"></a>函数式组件</h4><p>使用  <strong>functional</strong> 标记组件；</p>
+<p>组件无状态(没有<strong>响应式数据</strong>)，也没有实例(没有 <strong>this</strong> 上下文)</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Vue.component(<span class="string">'my-component'</span>, &#123;</span><br><span class="line">  functional: <span class="literal">true</span>,</span><br><span class="line">  <span class="comment">// Props 是可选的</span></span><br><span class="line">  props: &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="comment">// 为了弥补缺少的实例</span></span><br><span class="line">  <span class="comment">// 提供第二个参数作为上下文</span></span><br><span class="line">  render: <span class="function"><span class="keyword">function</span> (<span class="params">createElement, context</span>) </span>&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p><strong>2.3.0之前props是必须的</strong></p>
+<p>使用函数式组件时，引用将会是 <strong>HTMLElement</strong></p>
+<p>2.5.0及以上版本，如果使用了单文件组件，可以这样声明函数式组件</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">template</span> <span class="attr">functional</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>组件通过 ==<strong>context</strong>==</p>
+<h4 id="组件通信"><a href="#组件通信" class="headerlink" title="组件通信"></a>组件通信</h4><h5 id="父子组件"><a href="#父子组件" class="headerlink" title="父子组件"></a>父子组件</h5><h5 id="子父组件"><a href="#子父组件" class="headerlink" title="子父组件"></a>子父组件</h5><p>通过 <strong>$emit</strong> 自定义方法传值</p>
+<h5 id="兄弟组件"><a href="#兄弟组件" class="headerlink" title="兄弟组件"></a>兄弟组件</h5>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/12/17/Vue/" data-id="ck49pkhew00072wvv4qvb7moy" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/12/17/webpack/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          webpack
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/12/17/hello-md/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">hello.md</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/12/17/npm/">npm</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/17/Node/">Node</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/17/Java%20Script/">Java Script</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/17/CSS%E5%AE%9E%E8%B7%B5/">CSS实践</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/17/CSS%E6%A6%82%E5%BF%B5/">CSS概念</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 刘方红<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
